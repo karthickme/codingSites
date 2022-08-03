@@ -1,4 +1,4 @@
-def divisors(num):
+def divisorsCount(num):
     count = 2
     i = 2
     while i ** 2 < num:
@@ -9,4 +9,4 @@ def divisors(num):
         count += 1
     return count
 
-print(divisors(28))
+print(divisorsCount(28))
